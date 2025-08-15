@@ -20,36 +20,7 @@
 - **Email**: Nodemailer
 - **Security**: bcrypt, crypto
 
-## التثبيت والتشغيل
 
-### المتطلبات الأساسية
-- Node.js (v14 أو أحدث)
-- MongoDB
-- npm أو yarn
-
-### خطوات التثبيت
-
-1. استنساخ المشروع:
-```bash
-git clone <repository-url>
-cd SarahaApp
-```
-
-2. تثبيت التبعيات:
-```bash
-npm install
-```
-
-3. إعداد متغيرات البيئة:
-```bash
-cp .env.example .env
-# تعديل ملف .env بالمعلومات المطلوبة
-```
-
-4. تشغيل المشروع:
-```bash
-npm start
-```
 
 ## هيكل المشروع
 
@@ -70,17 +41,5 @@ src/
 └── index.js
 ```
 
-## المسارات المتاحة
 
-- `POST /auth/register` - تسجيل مستخدم جديد
-- `POST /auth/login` - تسجيل الدخول
-- `POST /message/send` - إرسال رسالة
-- `GET /user/profile` - عرض الملف الشخصي
 
-## المساهمة
-
-نرحب بمساهماتكم! يرجى إنشاء fork للمشروع وإرسال pull request.
-
-## الترخيص
-
-هذا المشروع مرخص تحت رخصة MIT.
