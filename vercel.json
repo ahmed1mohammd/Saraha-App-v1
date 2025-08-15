@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "builds": [
+    {
+      "src": "index.js",
+      "use": "@vercel/node"
+    }
+  ],
+  "env": {
+    "JWT_SECRET": "MySuperSecretKey",
+    "MONGO_URI": "mongodb+srv://<username>:<password>@cluster.mongodb.net/mydb"
+  }
+}
