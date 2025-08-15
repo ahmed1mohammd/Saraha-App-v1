@@ -2,7 +2,7 @@ import mongoose from "mongoose";
 const connectDB = async() =>{
 
    try {
-    const uri = "mongodb://127.0.0.1:27017/sarahaApp"
+    const uri = process.env.MONGO_URI
      const reslut = await mongoose.connect
      (uri,{serverSelectionTimeoutMS:30000})
 
