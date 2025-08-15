@@ -5,6 +5,7 @@
   "type": "module",
   "engines": { "node": "v22.12.0"},
   "scripts": {
+     "start": "node ./src/index.js",
     "start:dev": "node --watch ./src/index.js"
   },
   "keywords": [],
