@@ -22,7 +22,6 @@ export const successResponse = ({res, message = "Done" , status = 200 , data = {
 //Error 
 export const globalErrorHandling = (error, req, res, next)=>{
 return res.status(error.cause || 400).json({
-  err_message:error.message ,
-  stack: process.env.MOOD === "DEVELOPMENT" ?error.stack:undefined
+  err_message:error.message 
   })
 }
